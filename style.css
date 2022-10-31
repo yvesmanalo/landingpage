@@ -13,8 +13,8 @@ header{
     height:408px;
     width: 1162px;
     margin: auto;
-
 }
+
 header div{
     padding: 0 100px 0 100px;
     display: flex;
@@ -104,25 +104,158 @@ nav li{
     height:69px;
 }
 
+#sec1{
+    background-color: white;
+    height:408px;
+    width: 1162px;
+    margin: auto;
+}
+
+.images{
+    height: 180px;
+    width: 180px;
+    border: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+#random-info{
+    width: 1162px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+#image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin:0;
+}
+
+#fig1, #fig2, #fig3, #fig4{
+    width: 180px;
+    margin:0;
+}
+
 #sec1 h2{
     font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: #1f2937
 }
 
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color:gray;
+    
+}
+
 #sec2{
     background-color: #e5e7eb;
+    height:408px;
+    width: 1162px;
+    margin: auto;
+    padding: 100px 150px 100px 150px;
 }
 
+#quote{
+    width: 775px;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+}
 blockquote{
+    width: 775px;
     font-size: 36px;
-    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
     font-style: italic;
     color: #1f2937;
+    margin: 0;
+
+}
+.thor-quote{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: bolder;
+    text-align: right;
+    font-size: 25px;
 }
 
-footer{
+#sec3{
+    background-color: white;
+    height:408px;
+    width: 1162px;
+    margin: auto;
+    padding: 100px 150px 100px 150px;
+}
+
+#blue-bg{
+    width:862px;
+    height: 200px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#action-sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue-bg h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    
+}
+
+#blue-bg p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+#sign-up button{
+    font-size: 18px;
+    background-color:#3882f6;
+    color: white;
+    border-style: solid;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+#footer{
     background-color: #1f2937;
+    height:100px;
+    width: 1162px;
+    margin: auto;
+    padding: 80px
+}
+
+#footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
 }
 
 
