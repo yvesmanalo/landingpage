@@ -4,7 +4,6 @@
 }
 body{
     background-color: black;
-    padding:0 15rem 0 15rem;
     margin:0
 }
 
@@ -103,6 +102,12 @@ nav li{
     width: 962px;
     height:69px;
 }
+
+main{
+    width: 1162px;
+    margin: auto;
+}
+
 
 #sec1{
     background-color: white;
@@ -244,18 +249,26 @@ blockquote{
     border-color: white;
 }
 
+footer{
+    width:1162px;
+    margin: auto;
+}
 
 #footer{
     background-color: #1f2937;
     height:100px;
     width: 1162px;
     margin: auto;
-    padding: 80px
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #footer p{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
+    
 }
 
 
